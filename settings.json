@@ -1,0 +1,92 @@
+{
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.startupEditor": "none",
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.mouseWheelZoom": true,
+	"files.autoSave": "afterDelay",
+	"editor.fontFamily": "Consolas, Ubuntu Mono, 'Courier New', monospace",
+	"css.format.newlineBetweenRules": false,
+	"css.format.newlineBetweenSelectors": false,
+	"css.format.spaceAroundSelectorSeparator": true,
+	"html.format.extraLiners": "",
+	"html.format.wrapLineLength": 0,
+	"workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+	"liveSassCompile.settings.showOutputWindowOn": "None",
+	"scss.format.newlineBetweenSelectors": false,
+	"scss.format.preserveNewLines": false,
+	"scss.format.newlineBetweenRules": false,
+	"scss.format.braceStyle": "expand",
+	"scss.format.enable": false,
+	"ecsstractor_port.brackets": false,
+	"ecsstractor_port.bem_nesting": true,
+	"ecsstractor_port.add_comment": false,
+	"ecsstractor_port.brackets_newline_after": false,
+	"ecsstractor_port.empty_line_before_nested_selector": false,
+	"workbench.layoutControl.enabled": false,
+	"window.commandCenter": false,
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 2,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"explorer.confirmDragAndDrop": false,
+	"editor.smoothScrolling": true,
+	"breadcrumbs.enabled": false,
+	"files.exclude": {
+		"**/.git": false
+	},
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"Ubuntu (WSL)": {
+			"path": "C:\\WINDOWS\\System32\\wsl.exe",
+			"args": ["-d", "Ubuntu"]
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"workbench.list.smoothScrolling": true,
+	"terminal.integrated.smoothScrolling": true,
+	"tabnine.experimentalAutoImports": true,
+	"json.schemaDownload.enable": false,
+	"json.schemas": [
+		{
+			"fileMatch": ["/package.json"],
+			"url": "C:/Users/yegr/AppData/Roaming/Code/User/schema/schema_package.json"
+		},
+		{
+			"fileMatch": ["/tsconfig.json"],
+			"url": "C:/Users/yegr/AppData/Roaming/Code/User/schema/schema_package.json"
+		}
+	],
+	"json.validate.enable": false,
+	"workbench.editor.tabSizingFixedMaxWidth": 90,
+	"workbench.editor.tabSizing": "fixed",
+	"workbench.colorTheme": "Dracula",
+	"explorer.compactFolders": false,
+	"cSpell.userWords": ["tailwindcss"],
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.minimap.enabled": false,
+	"prettier.tabWidth": 4,
+	"prettier.semi": false,
+	"glassit.alpha": 220,
+	"prettier.quoteProps": "consistent",
+	"prettier.trailingComma": "all",
+	"window.density.editorTabHeight": "compact",
+	"prettier.useTabs": true,
+	"editor.guides.indentation": false,
+	"editor.stickyScroll.enabled": false
+}

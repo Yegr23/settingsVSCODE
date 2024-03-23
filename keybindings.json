@@ -1,0 +1,71 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+<<<<<<< HEAD
+    {
+        "key": "ctrl+alt+1",
+        "command": "extension.ecsstractor_port_run"
+    }
+=======
+	{
+		"key": "ctrl+alt+1",
+		"command": "extension.ecsstractor_port_run"
+	},
+	{
+		"key": "alt+a",
+		"command": "workbench.action.toggleActivityBarVisibility"
+	},
+	{
+		"key": "delete",
+		"command": "deleteFile",
+		"when": "filesExplorerFocus && foldersViewVisible && !explorerResourceMoveableToTrash && !explorerResourceReadonly && !inputFocus"
+	},
+	{
+		"key": "delete",
+		"command": "-deleteFile",
+		"when": "filesExplorerFocus && foldersViewVisible && !explorerResourceMoveableToTrash && !explorerResourceReadonly && !inputFocus"
+	},
+	{
+		"key": "ctrl+d",
+		"command": "moveFileToTrash",
+		"when": "explorerResourceMoveableToTrash && filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+	},
+	{
+		"key": "delete",
+		"command": "-moveFileToTrash",
+		"when": "explorerResourceMoveableToTrash && filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+	},
+	{
+		"key": "alt+s",
+		"command": "workbench.action.togglePanel"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "-workbench.action.togglePanel"
+	},
+	{
+		"key": "home",
+		"command": "-workbench.statusBar.focusFirst",
+		"when": "statusBarFocused"
+	},
+	{
+		"key": "home",
+		"command": "-notifications.focusFirstToast",
+		"when": "notificationFocus && notificationToastsVisible"
+	},
+	{
+		"key": "home",
+		"command": "-list.focusFirst",
+		"when": "listFocus && !inputFocus"
+	},
+	{
+		"key": "home",
+		"command": "-editor.action.goToTopHover",
+		"when": "editorHoverFocused"
+	},
+	{
+		"key": "home",
+		"command": "-firstCompressedFolder",
+		"when": "explorerViewletCompressedFocus && filesExplorerFocus && foldersViewVisible && !explorerViewletCompressedFirstFocus && !inputFocus"
+	}
+>>>>>>> e3a4eb8a353cc8c191dd461be74c178e4d36d4e8
+]
